@@ -1,6 +1,6 @@
 ---
 layout: page
-title: prospective
+title: Prospective
 permalink: /prospective/
 nav: true
 nav_order: 4

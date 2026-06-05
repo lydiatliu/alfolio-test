@@ -1,8 +1,8 @@
 ---
 layout: page
-title: writing
+title: Writing
 permalink: /writing/
-nav: true
+nav: false
 nav_order: 6
 ---
 

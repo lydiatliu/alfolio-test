@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Assistant Professor of Computer Science, Princeton University
 
@@ -13,6 +13,10 @@ profile:
     <div class="profile-contact">
       <p><strong>Email</strong><br><code>ltliu_at_princeton_dot_edu</code></p>
       <p><strong>Office</strong><br>Department of Computer Science<br>35 Olden Street</p>
+      <p class="profile-links">
+        <a href="https://github.com/lydiatliu" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://scholar.google.com/citations?hl=en&user=IQ2eTA8AAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+      </p>
     </div>
 
 selected_papers: false

@@ -1,10 +1,22 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /projects/
 nav: true
 nav_order: 2
 ---
+
+<div class="pub-filter" role="group" aria-label="Filter publications by topic">
+  <button type="button" class="active" data-filter="all">All</button>
+  <button type="button" data-filter="prediction-social">Prediction & Social Impact</button>
+  <button type="button" data-filter="causal-human-ai">Causal Human-AI Decisions</button>
+  <button type="button" data-filter="evaluation">Evaluation Methods</button>
+  <button type="button" data-filter="incentives">Incentive-Aware ML</button>
+  <button type="button" data-filter="fairness">Fairness</button>
+  <button type="button" data-filter="education">Education</button>
+</div>
+
+<div class="research-publications" markdown="1">
 
 ### Manuscripts
 
@@ -140,6 +152,8 @@ _Proceedings of the Innovation and Responsibility in AI-Supported Education Work
 
 *<sup>\*</sup> <sup>^</sup> equal contribution*
 
+</div>
+
 ### Technical reports
 
 * [**Social Dynamics of Machine Learning for Decision Making**](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-41.html).  
@@ -224,3 +238,87 @@ in Dynamic Environments**](https://dynamicdecisions.github.io/). Virtual.
 Our work has been featured in:
 * Talking Machines podcast, [Long Term Fairness](https://www.thetalkingmachines.com/episodes/long-term-fairness).
 * Bloomberg Opinion, [How to Teach a Computer What ‘Fair’ Means](https://www.bloomberg.com/view/articles/2018-03-15/computer-algorithms-need-to-know-what-fair-means).
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const labels = {
+      "prediction-social": "Prediction & Social Impact",
+      "causal-human-ai": "Causal Human-AI Decisions",
+      evaluation: "Evaluation Methods",
+      incentives: "Incentive-Aware ML",
+      fairness: "Fairness",
+      education: "Education",
+    };
+
+    const rules = [
+      [
+        "prediction-social",
+        /Bridging Prediction and Intervention Problems|The Book of Life approach|Reimagining the Machine Learning Life Cycle|The Reach of Fairness|On the Actionability of Outcome Prediction|Delayed Impact of Fair Machine Learning|The Disparate Equilibria|Balancing Competing Objectives|A Baseline that Matters/i,
+      ],
+      [
+        "causal-human-ai",
+        /Discretion in the Loop|AI Assistance for Discretionary Work|Evaluating Prediction-based Interventions|On the Actionability of Outcome Prediction|Bridging Prediction and Intervention Problems/i,
+      ],
+      [
+        "evaluation",
+        /Bridging Prediction and Intervention Problems|Evaluating Prediction-based Interventions|Impact of Coreset Selection|Rethinking Math Benchmarks|Evaluating Fairness in Black-box Algorithmic Markets|A Baseline that Matters/i,
+      ],
+      [
+        "incentives",
+        /Strategic ranking|Bandit Learning in Decentralized Matching Markets|Competing Bandits in Matching Markets|The Disparate Equilibria/i,
+      ],
+      [
+        "fairness",
+        /The Reach of Fairness|Reimagining the Machine Learning Life Cycle|The Impact of Coreset Selection|Balancing Competing Objectives|The Disparate Equilibria|The Implicit Fairness Criterion|Delayed Impact of Fair Machine Learning|Evaluating Fairness in Black-box Algorithmic Markets|A Baseline that Matters/i,
+      ],
+      [
+        "education",
+        /Discretion in the Loop|AI Assistance for Discretionary Work|Reimagining the Machine Learning Life Cycle|Rethinking Math Benchmarks/i,
+      ],
+    ];
+
+    const publicationItems = Array.from(document.querySelectorAll(".research-publications li"));
+
+    publicationItems.forEach((item) => {
+      const text = item.textContent;
+      const topics = rules.filter(([, pattern]) => pattern.test(text)).map(([topic]) => topic);
+      const uniqueTopics = Array.from(new Set(topics));
+      item.dataset.topics = uniqueTopics.join(" ");
+
+      if (!uniqueTopics.length) return;
+
+      const topicList = document.createElement("div");
+      topicList.className = "pub-topic-list";
+      topicList.setAttribute("aria-label", "Publication topics");
+      topicList.innerHTML = uniqueTopics.map((topic) => `<span class="topic-${topic}">${labels[topic]}</span>`).join("");
+      item.prepend(topicList);
+    });
+
+    function applyFilter(topic) {
+      publicationItems.forEach((item) => {
+        item.hidden = topic !== "all" && !item.dataset.topics.split(" ").includes(topic);
+      });
+
+      document.querySelectorAll(".research-publications h3, .research-publications h4").forEach((heading) => {
+        let node = heading.nextElementSibling;
+        let hasVisibleItem = false;
+        while (node && !/^H[34]$/.test(node.tagName)) {
+          if (node.matches("ul, ol") && Array.from(node.querySelectorAll("li")).some((item) => !item.hidden)) {
+            hasVisibleItem = true;
+            break;
+          }
+          node = node.nextElementSibling;
+        }
+        heading.hidden = topic !== "all" && !hasVisibleItem;
+      });
+    }
+
+    document.querySelectorAll(".pub-filter button").forEach((button) => {
+      button.addEventListener("click", () => {
+        document.querySelectorAll(".pub-filter button").forEach((otherButton) => otherButton.classList.remove("active"));
+        button.classList.add("active");
+        applyFilter(button.dataset.filter);
+      });
+    });
+  });
+</script>
