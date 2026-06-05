@@ -1,0 +1,11 @@
+---
+layout: page
+title: group
+permalink: /group/
+nav: true
+nav_order: 3
+---
+
+![HAIKU Lab Logo](/assets/img/haiku-lab-main.svg)
+
+**Princeton HAIKU Lab** studies how humans and AI systems collaborate in complex decision-making environments. We use applied modeling, statistical evaluation and experimentation, combined with normative and sociotechnical analysis to understand and improve human-AI collaboration in consequential domains. Our goal is to design, evaluate, and guide the implementation of AI systems that advance societal and planetary outcomes for all.
