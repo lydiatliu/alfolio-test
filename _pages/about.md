@@ -16,6 +16,7 @@ profile:
       <p class="profile-links">
         <a href="https://github.com/lydiatliu" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
         <a href="https://scholar.google.com/citations?hl=en&user=IQ2eTA8AAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=Lydia%20T.%20Liu%20Princeton" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
       </p>
     </div>
 
@@ -37,38 +38,45 @@ I obtained my Ph.D. in [Electrical Engineering and Computer Sciences](https://ee
 
 I am the recipient of an [Amazon Research Award](https://www.amazon.science/research-awards/program-updates/99-amazon-research-awards-recipients-announced), a [Microsoft Ada Lovelace Fellowship](https://www.microsoft.com/en-us/research/academic-program/ada-lovelace-fellowship/), an [Open Philanthropy AI Fellowship](https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/open-phil-ai-fellowship-2019-class), an NUS Development Grant, and an ICML Best Paper Award.
 
-General audience articles about my recent work: [_Rethinking AI’s impact on society through the lens of fairness_ by CSML](https://csml.princeton.edu/news/lydia-liu-rethinking-ai%E2%80%99s-impact-society-through-lens-fairness), [Department News](https://www.cs.princeton.edu/news/lydia-liu-expert-social-impacts-machine-learning-has-joined-faculty).
+**General audience articles about my recent work:** [_Rethinking AI’s impact on society through the lens of fairness_ by CSML](https://csml.princeton.edu/news/lydia-liu-rethinking-ai%E2%80%99s-impact-society-through-lens-fairness), [Department News](https://www.cs.princeton.edu/news/lydia-liu-expert-social-impacts-machine-learning-has-joined-faculty).
 
-[My work as a poet](https://lydialiupoet.com/the-problem-of-deer) has been supported by a [MacDowell](https://www.macdowell.org) fellowship.
+[My work as a poet](https://lydialiupoet.com/work) has been supported by a [MacDowell](https://www.macdowell.org) fellowship.
 
 <details>
   <summary>Speaker Bio</summary>
   <p>Lydia Liu is an Assistant Professor of Computer Science at Princeton University. Her research examines the theoretical foundations of machine learning and algorithmic decision-making, with a focus on long-term societal impact. She obtained her Ph.D. in electrical engineering and computer sciences from the University of California, Berkeley, and completed her postdoctoral research at Cornell University at the Artificial Intelligence, Policy, and Practice (AIPP) initiative. She is the recipient of an Amazon Research Award, fellowships from Microsoft and Open Philanthropy, and an ICML Best Paper Award.</p>
 </details>
 
-## Current PhD Students
-
-[Kara Schechtman](https://www.karaschechtman.com/about)
-
-## Prospective Students and Postdocs
-
-Please read [this page](/prospective/) before reaching out. Thank you.
+**Prospective Students and Postdocs**, please read [this page](/prospective/) before reaching out. Thank you!
 
 ## Selected Publications
 
-Kara Schechtman, Benjamin Brandon, Jenise Stafford, Hannah Li<sup>^</sup>, Lydia T. Liu<sup>^</sup>.  
-**Discretion in the Loop: Human Expertise in Algorithm-Assisted College Advising.**  
-ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO), _to appear (non-archival)_, 2025. [[arxiv]](https://arxiv.org/abs/2505.13325)
+<div class="selected-publications">
+  <div class="selected-publication">
+    <p class="pub-title">Discretion in the Loop: Human Expertise in Algorithm-Assisted College Advising.</p>
+    <p class="pub-authors">Kara Schechtman, Benjamin Brandon, Jenise Stafford, Hannah Li<sup>^</sup>, Lydia T. Liu<sup>^</sup>.</p>
+    <p class="pub-meta">ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO), to appear (non-archival), 2025.</p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2505.13325">arxiv</a></p>
+  </div>
 
-Lydia T. Liu, Solon Barocas, Jon Kleinberg, Karen Levy.  
-**On the Actionability of Outcome Prediction.**  
-_Proceedings of the AAAI conference on Artificial Intelligence_ (2024). [[arxiv]](https://arxiv.org/abs/2309.04470)  
-[Research Summary](https://montrealethics.ai/on-the-actionability-of-outcome-prediction/) featured by the Montreal AI Ethics Institute.
+  <div class="selected-publication">
+    <p class="pub-title">On the Actionability of Outcome Prediction.</p>
+    <p class="pub-authors">Lydia T. Liu, Solon Barocas, Jon Kleinberg, Karen Levy.</p>
+    <p class="pub-meta">Proceedings of the AAAI conference on Artificial Intelligence, 2024.</p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2309.04470">arxiv</a> <a href="https://montrealethics.ai/on-the-actionability-of-outcome-prediction/">research summary</a></p>
+  </div>
 
-Lydia T. Liu<sup>\*</sup>, Serena Wang<sup>\*</sup>, Tolani Britton<sup>^</sup>, Rediet Abebe<sup>^</sup>.  
-**Reimagining the Machine Learning Life Cycle to Improve Educational Outcomes of Students.**  
-_Proceedings of the National Academy of Sciences 120.9 (2023): e2204781120._ [[arxiv]](http://arxiv.org/abs/2209.03929)
+  <div class="selected-publication">
+    <p class="pub-title">Reimagining the Machine Learning Life Cycle to Improve Educational Outcomes of Students.</p>
+    <p class="pub-authors">Lydia T. Liu<sup>*</sup>, Serena Wang<sup>*</sup>, Tolani Britton<sup>^</sup>, Rediet Abebe<sup>^</sup>.</p>
+    <p class="pub-meta">Proceedings of the National Academy of Sciences 120.9 (2023): e2204781120.</p>
+    <p class="pub-links"><a href="http://arxiv.org/abs/2209.03929">arxiv</a></p>
+  </div>
 
-Lydia T. Liu, Sarah Dean, Esther Rolf, Max Simchowitz, Moritz Hardt.  
-**Delayed Impact of Fair Machine Learning.**  
-_Proceedings of the 35th International Conference on Machine Learning (ICML)_, Stockholm, Sweden, 2018. [[arxiv]](https://arxiv.org/abs/1803.04383)
+  <div class="selected-publication">
+    <p class="pub-title">Delayed Impact of Fair Machine Learning.</p>
+    <p class="pub-authors">Lydia T. Liu, Sarah Dean, Esther Rolf, Max Simchowitz, Moritz Hardt.</p>
+    <p class="pub-meta">Proceedings of the 35th International Conference on Machine Learning (ICML), Stockholm, Sweden, 2018.</p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/1803.04383">arxiv</a></p>
+  </div>
+</div>

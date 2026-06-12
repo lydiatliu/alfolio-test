@@ -3,14 +3,14 @@
 # -----------------------------------------------------------------------------
 
 title: Lydia T. Liu # the website title (if blank, full name will be used instead)
+show_navbar_title: false # set to true to show the site title in the navbar
 first_name: Lydia
 middle_name: T.
 last_name: Liu
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Assistant Professor of Computer Science at Princeton University. Research on the scientific and normative foundations of machine learning, algorithmic decision-making, and human-AI collaboration.
-footer_text: >
-  &copy; Lydia T. Liu.
+footer_text:
 keywords: machine learning, algorithmic decision-making, fairness, responsible AI, human-AI collaboration, Princeton # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: PU_mark.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
