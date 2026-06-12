@@ -16,7 +16,6 @@ nav_order: 4
   </div>
 </div>
 
-
 <div class="people-grid">
   <div class="card people-card">
     <div class="card-body">
@@ -85,7 +84,6 @@ nav_order: 4
     </div>
   </div>
 </div>
-
 
 ## Joining Us
 
