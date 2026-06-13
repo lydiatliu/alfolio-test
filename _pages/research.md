@@ -6,9 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-<div class="research-framing">
-  <p>Currently, my work revolves around three interconnected questions. I also take particular interest in education as a domain of application, and I have long-standing interests in incentive-aware machine learning and fairness.</p>
-</div>
+Currently, my work revolves around three interconnected questions. I also take particular interest in education as a domain of application, and I have long-standing interests in incentive-aware machine learning and fairness.
 
 <div class="research-themes">
   <section>
