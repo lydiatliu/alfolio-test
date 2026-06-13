@@ -91,6 +91,10 @@ details summary {
   font-weight: 700;
 }
 
+.profile {
+  width: 260px;
+}
+
 .profile img {
   border-radius: 20%;
 }
@@ -205,15 +209,9 @@ blockquote {
   line-height: 1.28;
 }
 
-.selected-publication .pub-authors {
-  color: #555555;
-  font-size: 0.92rem;
-  line-height: 1.35;
-}
-
 .selected-publication .pub-meta {
-  color: #777777;
-  font-size: 0.86rem;
+  color: #666666;
+  font-size: 0.88rem;
   line-height: 1.35;
 }
 
@@ -821,6 +819,11 @@ blockquote {
 @media (max-width: 575px) {
   h1.post-title {
     font-size: 1.85rem;
+  }
+
+  .profile {
+    max-width: 220px;
+    width: 60%;
   }
 
   .post-header {

@@ -32,11 +32,11 @@ latest_posts:
   enabled: false
 ---
 
-I am **assistant professor of [Computer Science](https://www.cs.princeton.edu) at Princeton University**, where I direct the [HAIKU Lab](/group/) for human-AI collaboration. I am broadly interested in the _scientific_ and _normative foundations_ of machine learning and algorithmic decision-making, with a focus on societal impact and welfare. I am a faculty affiliate of the [Center for Information Technology Policy](https://citp.princeton.edu), [Center for Statistics and Machine Learning](https://csml.princeton.edu), [Princeton Human Computer Interaction](https://hci.princeton.edu), [Princeton Language and Intelligence](https://pli.princeton.edu), and the [AI Lab](https://ai.princeton.edu/ai-lab).
+Hi there! I am a [computer scientist](https://www.cs.princeton.edu) at Princeton University, where I direct the [HAIKU Lab](/group/) for human-AI collaboration. I am broadly interested in the _scientific_ and _normative foundations_ of machine learning and algorithmic decision-making, with a focus on societal impact and welfare. I am a faculty affiliate of the [Center for Information Technology Policy](https://citp.princeton.edu), [Center for Statistics and Machine Learning](https://csml.princeton.edu), [Princeton Human Computer Interaction](https://hci.princeton.edu), [Princeton Language and Intelligence](https://pli.princeton.edu), and the [AI Lab](https://ai.princeton.edu/ai-lab).
 
-I obtained my Ph.D. in [Electrical Engineering and Computer Sciences](https://eecs.berkeley.edu/) from University of California, Berkeley, in May 2022, advised by [Moritz Hardt](http://mrtz.org/) and [Michael I. Jordan](https://people.eecs.berkeley.edu/~jordan/). In 2022-2023, I was a postdoctoral associate at [Cornell University Computer Science](http://cis.cornell.edu/cornell-computing-information-science), working with [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/), [Karen Levy](https://www.karen-levy.net), and [Solon Barocas](http://solon.barocas.org) in the [Artificial Intelligence, Policy, and Practice (AIPP)](https://aipp.cis.cornell.edu) initiative.
+I am the recipient of a Spencer Foundation Award, an [Amazon Research Award](https://www.amazon.science/research-awards/program-updates/99-amazon-research-awards-recipients-announced), a [Microsoft Ada Lovelace Fellowship](https://www.microsoft.com/en-us/research/academic-program/ada-lovelace-fellowship/), an [Open Philanthropy AI Fellowship](https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/open-phil-ai-fellowship-2019-class), an NUS Development Grant, and an ICML Best Paper Award.
 
-I am the recipient of an [Amazon Research Award](https://www.amazon.science/research-awards/program-updates/99-amazon-research-awards-recipients-announced), a [Microsoft Ada Lovelace Fellowship](https://www.microsoft.com/en-us/research/academic-program/ada-lovelace-fellowship/), an [Open Philanthropy AI Fellowship](https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/open-phil-ai-fellowship-2019-class), an NUS Development Grant, and an ICML Best Paper Award.
+I obtained my Ph.D. in [Electrical Engineering and Computer Sciences](https://eecs.berkeley.edu/) from University of California, Berkeley, in 2022, advised by [Moritz Hardt](http://mrtz.org/) and [Michael I. Jordan](https://people.eecs.berkeley.edu/~jordan/). I was a postdoctoral associate at [Cornell University Computer Science](http://cis.cornell.edu/cornell-computing-information-science), working with [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/), [Karen Levy](https://www.karen-levy.net), and [Solon Barocas](http://solon.barocas.org) in the [Artificial Intelligence, Policy, and Practice (AIPP)](https://aipp.cis.cornell.edu) initiative.
 
 **General audience articles about my recent work:** [_Rethinking AI’s impact on society through the lens of fairness_ by CSML](https://csml.princeton.edu/news/lydia-liu-rethinking-ai%E2%80%99s-impact-society-through-lens-fairness), [Department News](https://www.cs.princeton.edu/news/lydia-liu-expert-social-impacts-machine-learning-has-joined-faculty).
 
@@ -54,29 +54,25 @@ I am the recipient of an [Amazon Research Award](https://www.amazon.science/rese
 <div class="selected-publications">
   <div class="selected-publication">
     <p class="pub-title">Discretion in the Loop: Human Expertise in Algorithm-Assisted College Advising.</p>
-    <p class="pub-authors">Kara Schechtman, Benjamin Brandon, Jenise Stafford, Hannah Li<sup>^</sup>, Lydia T. Liu<sup>^</sup>.</p>
-    <p class="pub-meta">ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO), to appear (non-archival), 2025.</p>
+    <p class="pub-meta">Kara Schechtman, Benjamin Brandon, Jenise Stafford, Hannah Li<sup>^</sup>, Lydia T. Liu<sup>^</sup>. EAAMO, to appear, 2025.</p>
     <p class="pub-links"><a href="https://arxiv.org/abs/2505.13325">arxiv</a></p>
   </div>
 
   <div class="selected-publication">
     <p class="pub-title">On the Actionability of Outcome Prediction.</p>
-    <p class="pub-authors">Lydia T. Liu, Solon Barocas, Jon Kleinberg, Karen Levy.</p>
-    <p class="pub-meta">Proceedings of the AAAI conference on Artificial Intelligence, 2024.</p>
+    <p class="pub-meta">Lydia T. Liu, Solon Barocas, Jon Kleinberg, Karen Levy. AAAI, 2024.</p>
     <p class="pub-links"><a href="https://arxiv.org/abs/2309.04470">arxiv</a> <a href="https://montrealethics.ai/on-the-actionability-of-outcome-prediction/">research summary</a></p>
   </div>
 
   <div class="selected-publication">
     <p class="pub-title">Reimagining the Machine Learning Life Cycle to Improve Educational Outcomes of Students.</p>
-    <p class="pub-authors">Lydia T. Liu<sup>*</sup>, Serena Wang<sup>*</sup>, Tolani Britton<sup>^</sup>, Rediet Abebe<sup>^</sup>.</p>
-    <p class="pub-meta">Proceedings of the National Academy of Sciences 120.9 (2023): e2204781120.</p>
+    <p class="pub-meta">Lydia T. Liu<sup>*</sup>, Serena Wang<sup>*</sup>, Tolani Britton<sup>^</sup>, Rediet Abebe<sup>^</sup>. PNAS, 2023.</p>
     <p class="pub-links"><a href="http://arxiv.org/abs/2209.03929">arxiv</a></p>
   </div>
 
   <div class="selected-publication">
     <p class="pub-title">Delayed Impact of Fair Machine Learning.</p>
-    <p class="pub-authors">Lydia T. Liu, Sarah Dean, Esther Rolf, Max Simchowitz, Moritz Hardt.</p>
-    <p class="pub-meta">Proceedings of the 35th International Conference on Machine Learning (ICML), Stockholm, Sweden, 2018.</p>
+    <p class="pub-meta">Lydia T. Liu, Sarah Dean, Esther Rolf, Max Simchowitz, Moritz Hardt. ICML, 2018. Best Paper Award.</p>
     <p class="pub-links"><a href="https://arxiv.org/abs/1803.04383">arxiv</a></p>
   </div>
 </div>
