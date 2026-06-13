@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://lydiatliu.github.io/alfolio-test/sitemap.xml
+Sitemap: https://lydiatliu.github.io/sitemap.xml
